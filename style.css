@@ -1,0 +1,22 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30% 1fr;
+    background-color: slategray;
+    min-height: 100vh;
+    border-style: solid ;
+    border-color: navy;
+    
+}
+
+.top-bar {
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: navy;
+}
+
+body{
+    padding: 20px;
+}
